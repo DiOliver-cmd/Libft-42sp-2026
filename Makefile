@@ -6,7 +6,7 @@
 #    By: dilferre <dilferre@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/22 13:00:00 by dilferre          #+#    #+#              #
-#    Updated: 2026/06/01 12:01:38 by dilferre         ###   ########.fr        #
+#    Updated: 2026/06/02 10:08:15 by dilferre         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,16 @@ SRCS = ft_isalpha.c \
        ft_putchar_fd.c \
        ft_putstr_fd.c \
        ft_putendl_fd.c \
-       ft_putnbr_fd.c 
+       ft_putnbr_fd.c \
+       ft_lstnew.c \
+       ft_lstadd_front.c \
+       ft_lstsize.c \
+       ft_lstlast.c \
+       ft_lstadd_back.c \
+       ft_lstdelone.c \
+       ft_lstclear.c \
+       ft_lstiter.c \
+       ft_lstmap.c
 
 OBJS = $(SRCS:.c=.o)
 
